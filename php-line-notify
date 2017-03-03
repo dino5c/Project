@@ -1,0 +1,5 @@
+$token = 'nvkw6o4LWvnBPYZDjPWogdo7UBGTRz0Wygs6e7z4R4t';
+$ln = new KS\Line\LineNotify($token);
+
+$text = 'Hello Line Notify';
+$ln->send($text);
